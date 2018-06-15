@@ -12,6 +12,11 @@
         Enter A name<input name='name'  type="text">
         <input type="submit">
     </form>
+    <?php
+        $types_of_ppl = array('gaurav','dog lover','ppl i hate');
+
+        print_r($types_of_ppl);
+    ?>
 
 </body>
 </html>
