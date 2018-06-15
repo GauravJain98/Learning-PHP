@@ -8,15 +8,17 @@
 <body>
     <h1>Hello World</h1>
 
+    <?php
+        $types_of_ppl = array('gaurav','dog lover','ppl i hate');
+
+        foreach($types_of_ppl as $ppl){
+            echo $ppl . '<br> ';
+        }
+    ?>
+
     <form action="process.php" method ="POST">
         Enter A name<input name='name'  type="text">
         <input type="submit">
     </form>
-    <?php
-        $types_of_ppl = array('gaurav','dog lover','ppl i hate');
-
-        print_r($types_of_ppl);
-    ?>
-
 </body>
 </html>
